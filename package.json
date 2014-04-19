@@ -1,0 +1,23 @@
+{
+  "name": "tinyconf",
+  "version": "0.0.0",
+  "description": "Simple, environment-specific config file loader",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TylerLH/tinyconf.git"
+  },
+  "keywords": [
+    "config",
+    "json"
+  ],
+  "author": "Tyler Hughes <iampbt@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TylerLH/tinyconf/issues"
+  },
+  "homepage": "https://github.com/TylerLH/tinyconf"
+}
