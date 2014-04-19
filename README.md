@@ -36,6 +36,9 @@ socket.on 'connect', ->
 app.listen(config.port || 3001)
 ```
 
+### Options
 
+**path** - Pass an optional path if your config folder isn't in the app file's directory.
 
+Example: `var config = require('tinyconf')({path: './another_dir/config'});`
 
