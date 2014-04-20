@@ -1,6 +1,8 @@
+var path = require('path');
+
 module.exports = function (opts) {
   opts = opts || {};
-  var basePath = opts.path || process.cwd() + '/config';
+  var basePath = opts.path || path.dirname(module.parent.filename) + '/config';
   var environment = process.env.NODE_ENV || 'development';
   var fullPath = basePath + '/' + environment + '.json';
   try {

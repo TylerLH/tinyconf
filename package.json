@@ -4,7 +4,7 @@
   "description": "Simple, environment-specific config file loader",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "NODE_ENV=testing ./node_modules/mocha/bin/mocha test/*.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/TylerLH/tinyconf/issues"
   },
-  "homepage": "https://github.com/TylerLH/tinyconf"
+  "homepage": "https://github.com/TylerLH/tinyconf",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mocha": "^1.18.2"
+  }
 }
