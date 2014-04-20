@@ -6,7 +6,7 @@ Simple, env-specific config loader for node.js. Uses JSON files for config setti
 ## Usage
 Install tinyconf via NPM: `npm install --save tinyconf`
 
-Create a config folder in your project containing JSON files using your app's environments for filenames: 
+Create a config folder in your project containing JSON files using your app's environments (`process.env.NODE_ENV`) for filenames: 
 
 ```Bash
 mkdir ./config && cd ./config
