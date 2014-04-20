@@ -38,7 +38,7 @@ app.listen(config.port || 3001)
 
 ### Options
 
-**path** - Set an optional path to your config folder. If not set, `process.cwd() + '/config'` is used.
+**path** - Set an optional path to your config folder. If not set, tinyconf assumes your config folder is in the same directory as your app.
 
 Example: `var config = require('tinyconf')({path: './another_dir/config'});`
 
